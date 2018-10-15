@@ -45,6 +45,7 @@ var server = http.createServer(function(req, res){
       'headers' : headers,
       'payload' : helpers.parseJsonToObject(buffer)
     };
+    console.log(data);
 
     chosenHandler(data, function(statusCode, payload){
       // Use default statuscode
@@ -71,7 +72,8 @@ var server = http.createServer(function(req, res){
 
 });
 var router = {
-  'users' : handlers.users
+  'users' : handlers.users,
+  'tokens' : handlers.tokens
 };
 
 server.listen(3000, function(){
