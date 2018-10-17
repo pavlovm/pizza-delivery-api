@@ -74,7 +74,8 @@ var server = http.createServer(function(req, res){
 var router = {
   'users' : handlers.users,
   'tokens' : handlers.tokens,
-  'menu' : handlers.menu
+  'menu' : handlers.menu,
+  'cart' : handlers.cart
 };
 
 server.listen(3000, function(){
