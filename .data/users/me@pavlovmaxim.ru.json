@@ -1,1 +1,1 @@
-{"email":"me@pavlovmaxim.ru","name":"Maxim Pavlov","hashedPassword":"4c0c6965b7d383b5d02bb43abe83502c4f6407c4ad20770c952da641212696b6","address":"","cart":[]}
+{"email":"me@pavlovmaxim.ru","name":"Maxim Pavlov","hashedPassword":"4c0c6965b7d383b5d02bb43abe83502c4f6407c4ad20770c952da641212696b6","address":"Address 12345","cart":[{"id":"pizza-1","quantity":2},{"id":"pizza-2","quantity":1}]}

@@ -1,18 +1,22 @@
 {
-  "pizza-1" : {
+  "items": [{
+    "id" : "pizza-1",
     "title" : "Margarita",
     "price" : 10
   },
-  "pizza-2": {
+  {
+    "id" : "pizza-2",
     "title" : "Peperoni",
     "price" : 15
   },
-  "beverage-1": {
+  {
+    "id" : "beverage-1",
     "title" : "Sprite",
     "price" : 5
   },
-  "beverage-2": {
+  {
+    "id" : "beverage-2",
     "title" : "Fanta",
     "price" : 5
-  }
+  }]
 }
