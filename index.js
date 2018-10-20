@@ -12,6 +12,7 @@ var helpers = require('./lib/helpers');
 var handlers = require('./lib/handlers');
 var util = require('util');
 var debug = util.debuglog('server');
+var config = require('./lib/config');
 
 // Start server and listen for requests
 
